@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.example.longhengyu.dinghuo.SuperMark.SuperMarkFragment">
+
+    <fragment
+        android:id="@+id/markSearchTitle"
+        android:name="com.example.longhengyu.dinghuo.Home.View.SearchTitle"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        tools:layout="@layout/fragment_searchtitle"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/superMark_classifyRecycler"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+        <View
+            android:background="@color/div_white"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/superMark_commodityRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>

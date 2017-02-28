@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.longhengyu.dinghuo.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/Main_FrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <TextView
+        android:background="@color/div_white"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/Main_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_channel"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="首页"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Main_Mark"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_better"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="超市"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Main_Shopping"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_message"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="购物车"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Main_Person"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_setting"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="个人"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="16sp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

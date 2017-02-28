@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@mipmap/ceshibanner"
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="@color/div_white"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/homeheader_class1"
+            android:drawableTop="@mipmap/class_drink"
+            android:text="酒水饮料"
+            android:drawablePadding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/homeheader_class2"
+            android:drawableTop="@mipmap/class_oil"
+            android:text="粮油调味"
+            android:drawablePadding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/homeheader_class3"
+            android:drawableTop="@mipmap/class_cookies"
+            android:text="休闲食品"
+            android:drawablePadding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/homeheader_class4"
+            android:drawableTop="@mipmap/class_wash"
+            android:text="洗化护理"
+            android:drawablePadding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/homeheader_class5"
+            android:drawableTop="@mipmap/class_paper"
+            android:text="纸品湿巾"
+            android:drawablePadding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/div_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="0.5dp"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/pic_dinghuo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_marginTop="0.5dp"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="0.5dp"
+            android:src="@mipmap/pic_pianyi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_marginTop="0.5dp"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/pic_man"
+            android:layout_marginLeft="0.5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_marginTop="0.5dp"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="0.5dp"
+            android:src="@mipmap/pic_qianggou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

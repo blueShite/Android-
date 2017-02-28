@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="64dp"
+              android:orientation="vertical"
+              android:background="@color/ColorMianApp"
+             tools:context="com.example.longhengyu.dinghuo.Title.TitleFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/nav_backBtn"
+            android:background="#00000000"
+            android:drawableLeft="@mipmap/backbtn"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="45dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/nav_titleText"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:text="标题"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_width="200dp"
+            android:layout_height="30dp"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

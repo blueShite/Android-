@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.longhengyu.dinghuo.Person.PersonFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:id="@+id/personTitle"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"></FrameLayout>
+
+</LinearLayout>
